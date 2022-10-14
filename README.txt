@@ -62,3 +62,25 @@ Project: About Radios
 	I commit all the thing to github.
 
 435 I updated my radios.cs file.
+
+438 I have commit my program that I make change.
+
+440 It's a time to add search menu....
+
+440 Now it's time to update the index method of controller.
+
+445 I started adding search by type of radios.
+
+448 I Make one class model.
+	and named it RadiostypeViewModel.cs
+
+500 After that Replace the Index method in MoviesController.cs 
+	with thecode given in pdf.
+	And also update Index.cshtml file.
+
+520 now run my program 
+	and it workss............:)
+
+535 After all of this I commit all to github.
+
+

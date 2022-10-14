@@ -20,9 +20,32 @@ namespace Radios.Controllers
         }
 
         // GET: radios
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(string Radiotype, string searchString)
         {
-            return View(await _context.radios.ToListAsync());
+            IQueryable<string> typeQuery = from m in _context.radios
+                                            orderby m.type
+                                            select m.type;
+
+            var radios = from m in _context.radios
+                         select m;
+
+            if (!String.IsNullOrEmpty(searchString))
+            {
+                radios = radios.Where(s => s.Name.Contains(searchString));
+            }
+
+            if (!string.IsNullOrEmpty(Radiotype))
+            {
+                radios = radios.Where(x => x.type == Radiotype);
+            }
+
+            var RadiotypeVM = new RadiostypeViewModel
+            {
+                type = new SelectList(await typeQuery.Distinct().ToListAsync()),
+                Radios = await radios.ToListAsync()
+            };
+
+            return View(RadiotypeVM);
         }
 
         // GET: radios/Details/5
