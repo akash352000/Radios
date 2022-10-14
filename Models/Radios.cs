@@ -4,9 +4,9 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.ComponentModel.DataAnnotations;
 
-namespace Radios.Models
+namespace MvcRadios.Models
 {
-    public class Radios
+    public class radios
     {
         public int Id { get; set; }
         public string Name { get; set; }
