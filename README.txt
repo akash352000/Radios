@@ -20,3 +20,13 @@ Project: About Radios
 117 I added content into MvcRadiosContext.cs
 
 118 After that I commit all thigns to github
+
+119 go for lunch !!!!!
+
+227 I updated Startup.cs file 
+	By using statements 
+	and make some changes in Startup.ConfigureServices.
+
+229 I also update appsettings.json file 
+
+230 updated README.txt and commit all.
