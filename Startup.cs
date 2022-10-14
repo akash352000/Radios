@@ -29,7 +29,7 @@ namespace Radios
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddDbContext<ApplicationDbContext>(options =>
-            options.UseSqlServer(Configuration.GetConnectionString("MvcMovieContext")));
+            options.UseSqlServer(Configuration.GetConnectionString("MvcRadiosContext")));
         /*options.UseSqlServer(
             Configuration.GetConnectionString("DefaultConnection")));*/
         services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)

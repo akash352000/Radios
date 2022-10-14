@@ -41,3 +41,22 @@ Project: About Radios
 243 I updated my README.txt file 
 
 250 I commit all things to github
+
+300 I Create a new class named SeedData.cs in the Models folder
+302 In that SeedData.cs file 
+	I added 10records for Radios with all different properties
+
+355 I updated program.cs file to make working SeedData......!!!
+
+400 Finally I run my program...
+	but wait.....!!
+	I saw an error in my program.cs file 
+
+405 I found an error..!!!!
+406 I found that i forgot to add one using statement 
+	And I added it..
+
+412 After solving it I run my program and what can I saw my program was working....:)
+
+430 How can I forgot to commit all this thing.....
+	I commit all the thing to github.
