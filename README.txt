@@ -83,4 +83,18 @@ Project: About Radios
 
 535 After all of this I commit all to github.
 
+540 Oofff.....!!!! 
+	Took a break and made dinner...:)
+	
+922 Ohkkkk.....!!!!
+	Back to work now......
+
+923 Now it's time for adding Rating field to each pages that requires.
+
+924 Time to check the work that i have done
+
+926 I think i have to add validation to Rating field.
+
+928 I commit all code to github..
+
 

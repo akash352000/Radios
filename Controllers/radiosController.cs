@@ -77,7 +77,7 @@ namespace Radios.Controllers
         // more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Name,LaunchDate,company,Price,type,Generation")] radios radios)
+        public async Task<IActionResult> Create([Bind("Id,Name,LaunchDate,company,Price,type,Generation,Rating")] radios radios)
         {
             if (ModelState.IsValid)
             {
@@ -109,7 +109,7 @@ namespace Radios.Controllers
         // more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Name,LaunchDate,company,Price,type,Generation")] radios radios)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,Name,LaunchDate,company,Price,type,Generation,Rating")] radios radios)
         {
             if (id != radios.Id)
             {

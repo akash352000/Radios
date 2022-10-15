@@ -30,7 +30,8 @@ namespace MvcRadios.Models
                         company = "carvan",
                         Price = 250,
                         type = "wooden",
-                        Generation = 9
+                        Generation = 9,
+                        Rating = 3
                     },
 
                     new radios
@@ -40,7 +41,8 @@ namespace MvcRadios.Models
                         company = "Icom",
                         Price = 150,
                         type = "Fiber",
-                        Generation = 6
+                        Generation = 6,
+                        Rating = 4
                     },
                     new radios
                     {
@@ -49,7 +51,8 @@ namespace MvcRadios.Models
                         company = "Yaesy",
                         Price = 90,
                         type = "steel",
-                        Generation = 3
+                        Generation = 3, 
+                        Rating = 4
                     },
                     new radios
                     {
@@ -58,7 +61,8 @@ namespace MvcRadios.Models
                         company = "Revo Radio",
                         Price = 140,
                         type = "wooden",
-                        Generation = 5
+                        Generation = 5,
+                        Rating = 3
                     },
                     new radios
                     {
@@ -67,7 +71,8 @@ namespace MvcRadios.Models
                         company = "Revo Radio",
                         Price = 110,
                         type = "wooden",
-                        Generation = 5
+                        Generation = 5, 
+                        Rating = 2
                     },
                     new radios
                     {
@@ -76,7 +81,8 @@ namespace MvcRadios.Models
                         company = "Ruark Audio",
                         Price = 800,
                         type = "luxurious wooden",
-                        Generation = 10
+                        Generation = 10, 
+                        Rating = 5
                     },
                     new radios
                     {
@@ -85,7 +91,8 @@ namespace MvcRadios.Models
                         company = "Robort Radio",
                         Price = 230,
                         type = "steel body",
-                        Generation = 10
+                        Generation = 10, 
+                        Rating = 4
                     },
                     new radios
                     {
@@ -94,7 +101,8 @@ namespace MvcRadios.Models
                         company = "Pure Radio",
                         Price = 300,
                         type = "Woollen cover",
-                        Generation = 11
+                        Generation = 11, 
+                        Rating = 5
                     },
                     new radios
                     {
@@ -103,7 +111,8 @@ namespace MvcRadios.Models
                         company = "VQ",
                         Price = 450,
                         type = "wooden",
-                        Generation = 2
+                        Generation = 2, 
+                        Rating = 4
                     },
                     new radios
                     {
@@ -112,7 +121,8 @@ namespace MvcRadios.Models
                         company = "Tivoli Audio",
                         Price = 190,
                         type = "steel",
-                        Generation = 9
+                        Generation = 9,
+                        Rating = 5
                     }
                 );
                 context.SaveChanges();
