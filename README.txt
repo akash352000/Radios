@@ -97,4 +97,27 @@ Project: About Radios
 
 928 I commit all code to github..
 
+Date: 2022-10-17
+
+1000 After haveing some functions back to final set up.....
+
+1001 I have made About Us page in home directory.
+	 I have change in _layout.cshtml file 
+	 and link with navigation bar..
+
+1015 Having errors with pages that I link 
+	 After few minits I figure it out and do some changes...
+
+1020 SO, let's move to CSS 
+
+1050 Done with CSS with all pages that require...
+
+1107 Run the code AND what...!!!
+
+1107 Yessss....!!!!
+	 It's Working Finally.....:)
+
+1108 Very Happy To see it's working...
+
+1108 I commit all to github.....
 
